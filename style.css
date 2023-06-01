@@ -1,0 +1,9 @@
+header {
+   text-align: center;
+   
+}
+
+.navbar, a:hover {
+    color: black;
+    font-size: 100%;
+}
