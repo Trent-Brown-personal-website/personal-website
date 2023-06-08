@@ -1,13 +1,117 @@
 body {
-    background-color: antiquewhite;
+    background-color:rgb(66, 66, 66);
+}
+
+footer {
+   display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 2px solid black;
+    margin-top: 750px;
+    padding: 20px;
+    color: antiquewhite;
+    font-size: 18px;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 header {
    text-align: center;
+   border: 2px solid black;
+   height: 120px
    
 }
 
-.navbar, a:hover {
-    color: black;
-    font-size: 100%;
+.navbar, a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    
 }
+
+.navItem {
+    padding: 10px
+}
+ 
+a:hover {
+    padding: 8px;
+    transition: 1s;
+    font-size: 24px
+}
+
+
+.one {
+    float: left;
+    background-color: rgb(127, 208, 255);
+    width: 20%;
+    height: 750px;
+}
+.two {
+    float: left;
+    background-size: 400% 400%;
+    background: linear-gradient(-45deg, rgb(119, 216, 248), rgb(82, 202, 246), rgb(39, 185, 248), rgb(23, 143, 248));
+    animation: gradient 3s ease infinite;
+    width: 60%;
+    height: 750px;
+}
+.three {
+    float: right;
+    background-color: rgb(127, 208, 255);
+    width: 20%;
+    height: 750px;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.center {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px rgb(23, 143, 248);
+    
+}
+
+.portP {
+    margin-left: 10px
+}
+
+.placeholder {
+    width: 100px;
+    height: 100px;
+}
+
+.EGA {
+    width: 175px;
+    height: 175px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    margin: 15px;
+}
+
