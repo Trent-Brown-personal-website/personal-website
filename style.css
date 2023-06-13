@@ -3,6 +3,19 @@ body {
    
 }
 
+.contact {
+    background: linear-gradient(-45deg, rgb(119, 216, 248), rgb(82, 202, 246), rgb(39, 185, 248), rgb(23, 143, 248));
+    animation: gradient 3s ease infinite;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 200px;
+    padding-top: 200px;
+}
+
+
+
 footer {
    display: flex;
     justify-content: center;
@@ -147,9 +160,40 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
+    
+}
+
+.MCF {
+    width: 225px;
+    height: 175px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.americanFlag {
+    width: 225px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.philippineFlag {
+    width: 225px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
 
 .intro {
-    margin: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
 }
 
