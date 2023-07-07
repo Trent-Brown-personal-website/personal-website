@@ -202,3 +202,33 @@ a:hover {
     flex-direction: column;
     justify-content: center;
 }
+
+.container {
+    padding: 25px 25px 18px 50px;
+    background: rgba(0, 0, 0, 0);
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 0 4px 4px 0;
+    
+  }
+
+  .quote {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    position: relative;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .source {
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+    text-align: right;
+    margin-right: 4em;
+    
+  }
+  
+  .citation {
+    font-style: italic;
+  }
